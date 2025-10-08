@@ -25,8 +25,8 @@ public class Big_matrix_match_small_matrix {
         };
 
         System.out.println("Example 1 → " + check(big, small1)); // True
-        System.out.println("Example 2 → " + check(big, small2)); // True
-        System.out.println("Example 3 → " + check(big, small3)); // False
+        System.out.println("Example 2 → " + check(big, small2)); 
+        System.out.println("Example 3 → " + check(big, small3)); 
     }
 
     static String check(int[][] big, int[][] small) {
